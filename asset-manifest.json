@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rschalo.github.io/static/css/main.afcf2846.chunk.css",
+    "main.js": "/rschalo.github.io/static/js/main.4e99301c.chunk.js",
+    "main.js.map": "/rschalo.github.io/static/js/main.4e99301c.chunk.js.map",
+    "runtime-main.js": "/rschalo.github.io/static/js/runtime-main.5fcde7f1.js",
+    "runtime-main.js.map": "/rschalo.github.io/static/js/runtime-main.5fcde7f1.js.map",
+    "static/js/2.db8ced1d.chunk.js": "/rschalo.github.io/static/js/2.db8ced1d.chunk.js",
+    "static/js/2.db8ced1d.chunk.js.map": "/rschalo.github.io/static/js/2.db8ced1d.chunk.js.map",
+    "index.html": "/rschalo.github.io/index.html",
+    "precache-manifest.ed38c2979a298aa76c507ce42f40668e.js": "/rschalo.github.io/precache-manifest.ed38c2979a298aa76c507ce42f40668e.js",
+    "service-worker.js": "/rschalo.github.io/service-worker.js",
+    "static/css/main.afcf2846.chunk.css.map": "/rschalo.github.io/static/css/main.afcf2846.chunk.css.map",
+    "static/js/2.db8ced1d.chunk.js.LICENSE.txt": "/rschalo.github.io/static/js/2.db8ced1d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/rschalo.github.io/static/media/justin-kauffman-fpoHihXiMhg-unsplash.d9bab999.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fcde7f1.js",
+    "static/js/2.db8ced1d.chunk.js",
+    "static/css/main.afcf2846.chunk.css",
+    "static/js/main.4e99301c.chunk.js"
+  ]
+}
