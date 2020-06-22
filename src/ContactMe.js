@@ -15,7 +15,7 @@ const ContactMe = () => (
           justifyContent: 'center',
         }}
       >
-        <a href='mailto:reed0schalo@gmail.com?subject=Resume%20Interest'>
+        <a href='mailto:reed0schalo@gmail.com?subject=Resume%20Interest' target='_blank'>
           <FontAwesomeIcon
             className='social-icons'
             icon={faEnvelopeOpenText}
@@ -37,7 +37,7 @@ const ContactMe = () => (
         }}
       >
         <li style={{ margin: '4px' }}>
-          <a href='https://github.com/rschalo'>
+          <a href='https://github.com/rschalo' target='_blank'>
             <FontAwesomeIcon
               className='social-icons'
               icon={faGithubAlt}
@@ -47,7 +47,7 @@ const ContactMe = () => (
           </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/in/reed-schalo/'>
+          <a href='https://www.linkedin.com/in/reed-schalo/' target='_blank'>
             <FontAwesomeIcon
               className='social-icons'
               icon={faLinkedinIn}

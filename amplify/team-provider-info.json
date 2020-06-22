@@ -14,6 +14,12 @@
         "categories": {
             "auth": {
                 "cognito48b88dc6": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d29fg3dgnny4af",
+                    "type": "cicd"
+                }
             }
         }
     }
