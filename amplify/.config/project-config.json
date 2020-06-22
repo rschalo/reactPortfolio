@@ -5,8 +5,8 @@
     "javascript": {
         "framework": "react",
         "config": {
-            "SourceDir": "rSchaloReactPractice\\portfoliov2\\src",
-            "DistributionDir": "rSchaloReactPractice\\portfoliov2\\build",
+            "SourceDir": "portfoliov2\\src",
+            "DistributionDir": "portfoliov2\\build",
             "BuildCommand": "npm.cmd run-script build",
             "StartCommand": "npm.cmd run-script start"
         }
