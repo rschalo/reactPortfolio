@@ -82,7 +82,6 @@ a {
   background-size: cover;
   justify-content: center;
   align-items: center;
-
   color: white;
 }
 
@@ -209,7 +208,7 @@ a {
 }
 
 .social-icons {
-  border: 1px solid grey;
+  border: 2px solid rgb(54, 54, 54);
   border-radius: 50px;
   min-width: 30px;
   padding: 10px;

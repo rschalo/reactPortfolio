@@ -19,7 +19,7 @@ const ContactMe = () => (
           <FontAwesomeIcon
             className='social-icons'
             icon={faEnvelopeOpenText}
-            style={{ color: 'black', width: '30px' }}
+            style={{ color: 'grey', width: '30px' }}
             size='2x'
           />
         </a>
@@ -41,7 +41,7 @@ const ContactMe = () => (
             <FontAwesomeIcon
               className='social-icons'
               icon={faGithubAlt}
-              style={{ color: 'black' }}
+              style={{ color: 'grey' }}
               size='2x'
             />
           </a>
@@ -51,7 +51,7 @@ const ContactMe = () => (
             <FontAwesomeIcon
               className='social-icons'
               icon={faLinkedinIn}
-              style={{ color: 'black' }}
+              style={{ color: 'grey' }}
               size='2x'
             />
           </a>
