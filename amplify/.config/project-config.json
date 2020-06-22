@@ -1,0 +1,17 @@
+{
+    "projectName": "reactPortfolio",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "C:\\Users\\Reed\\Documents\\rSchaloReactPractice\\portfoliov2\\src",
+            "DistributionDir": "C:\\Users\\Reed\\Documents\\rSchaloReactPractice\\portfoliov2\\build",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": "npm.cmd run-script start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
