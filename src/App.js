@@ -13,10 +13,10 @@ function App() {
       <div className='main-container' id='top'>
         <div className='container-1'>
           <div id='content-desktop' className='whoami'>
-            My name is Reed Schalo and I design and build websites
+            My name is Reed Schalo. I design and build websites.
           </div>
           <div id='content-mobile' className='whoami'>
-            My name is Reed Schalo and I design and build websites
+            My name is Reed Schalo. I design and build websites.
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ class Skills extends Component {
         },
         {
           id: 3,
-          name: 'UTILITIES',
+          name: 'CLOUD',
           list: ['AWS', 'Heroku'],
           icon: faGlobe,
         },
