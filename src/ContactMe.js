@@ -2,7 +2,10 @@ import React from 'react';
 import './fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
+import {
+  faEnvelopeOpenText,
+  faFilePdf,
+} from '@fortawesome/free-solid-svg-icons';
 
 const ContactMe = () => (
   <section id='contact'>
@@ -11,24 +14,55 @@ const ContactMe = () => (
       <div
         style={{
           display: 'flex',
-          alignItems: 'center',
+          alignItems: 'baseline',
           justifyContent: 'center',
         }}
       >
-        <a href='mailto:reed0schalo@gmail.com?subject=Resume%20Interest' target='_blank' rel="noopener noreferrer">
-          <FontAwesomeIcon
-            className='social-icons'
-            icon={faEnvelopeOpenText}
-            style={{ color: 'grey', width: '30px' }}
-            size='2x'
-          />
-        </a>
+        <ul
+          style={{
+            marginTop: '-10px',
+            paddingLeft: '0',
+            display: 'flex',
+            listStyle: 'none',
+            justifyContent: 'center',
+            alignItems: 'baseline',
+          }}
+        >
+          <li style={{margin: '4px'}}>
+            <a
+              href='mailto:reed0schalo@gmail.com?subject=Resume%20Interest'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FontAwesomeIcon
+                className='social-icons'
+                icon={faEnvelopeOpenText}
+                style={{ color: 'grey', width: '30px' }}
+                size='2x'
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://docs.google.com/document/d/1pYPmxCyXu9eHma86Q4whvr9CXiowYKfV5VILJ0iA-hY/edit?usp=sharing'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FontAwesomeIcon
+                className='social-icons'
+                icon={faFilePdf}
+                style={{ color: 'grey', width: '30px' }}
+                size='2x'
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
     <section>
       <ul
         style={{
-          marginTop: '-2px',
+          marginTop: '-23px',
           paddingLeft: '0',
           display: 'flex',
           listStyle: 'none',
@@ -37,7 +71,11 @@ const ContactMe = () => (
         }}
       >
         <li style={{ margin: '4px' }}>
-          <a href='https://github.com/rschalo' target='_blank' rel="noopener noreferrer">
+          <a
+            href='https://github.com/rschalo'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FontAwesomeIcon
               className='social-icons'
               icon={faGithubAlt}
@@ -47,7 +85,11 @@ const ContactMe = () => (
           </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/in/reed-schalo/' target='_blank' rel="noopener noreferrer">
+          <a
+            href='https://www.linkedin.com/in/reed-schalo/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FontAwesomeIcon
               className='social-icons'
               icon={faLinkedinIn}
