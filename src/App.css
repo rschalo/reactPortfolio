@@ -168,9 +168,10 @@ a {
 .project-card {
   border: 3px grey solid;
   border-radius: 20px;
-  min-height: 780px;
+  min-height: 868px;
   min-width: 400px;
   margin-bottom: 25px;
+  line-height: 1.2;
 }
 
 .project-card h2 {
@@ -187,6 +188,10 @@ a {
 
 .project-description {
   max-width: 400px;
+}
+
+.project-technologies {
+  min-height: 192px;
 }
 
 .project-discovery {

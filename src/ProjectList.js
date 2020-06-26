@@ -11,7 +11,7 @@ class ProjectList extends Component {
           id: 0,
           name: 'YelpCamp',
           description:
-            "This project is a Single Page Application tracks a user's reading status of books in a database.",
+            "This project is a Full Stack Web App that allows users to create, edit, and update campgrounds in a database.",
           technologies: [
             'HTML',
             'CSS',
@@ -21,9 +21,10 @@ class ProjectList extends Component {
             'MongoDB',
           ],
           demoIcon: faPlay,
-          code: faCode,
+          codeIcon: faCode,
           codeURL: 'https://github.com/rschalo/yelpCampRSDemo',
           demoURL: 'https://lit-sierra-70695.herokuapp.com/',
+          hostedAt: 'Heroku'
         },
         {
           id: 1,
@@ -32,9 +33,10 @@ class ProjectList extends Component {
             'This project is a Single Page Application that allows user to search for and update reading status of books.',
           technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'React'],
           demoIcon: faPlay,
-          code: faCode,
+          codeIcon: faCode,
           codeURL: 'https://github.com/rschalo/Udacity-React-Nanodegree',
           demoURL: 'https://master.d2tkw00rmowzbl.amplifyapp.com/',
+          hostedAt: 'AWS'
         },
       ],
     };
@@ -50,9 +52,10 @@ class ProjectList extends Component {
               key={project.name}
               project={project}
               demoIcon={project.demoIcon}
-              code={project.code}
+              codeIcon={project.codeIcon}
               codeURL={project.codeURL}
               demoURL={project.demoURL}
+              hostedAt={project.hostedAt}
             />
           ))}
         </div>

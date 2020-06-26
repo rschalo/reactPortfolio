@@ -2,12 +2,21 @@ import React from 'react';
 import './fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Project = ({ project, demoIcon, code, codeURL, demoURL }) => (
+const Project = ({
+  project,
+  demoIcon,
+  codeIcon,
+  codeURL,
+  demoURL,
+  hostedAt,
+}) => (
   <div className='project-card'>
     <div className='project-card-top'>big box of video</div>
     <h2>{project.name}</h2>
+    <h4>Hosted on {hostedAt}</h4>
     <div className='project-description'>{project.description}</div>
-    <ul>
+    <h4>Technologies Used</h4>
+    <ul className='project-technologies'>
       {project.technologies.map((project) => (
         <li key={project}>{project}</li>
       ))}
@@ -22,7 +31,7 @@ const Project = ({ project, demoIcon, code, codeURL, demoURL }) => (
               style={{ color: 'grey' }}
               size='2x'
             />
-            See the code
+            See a Demo
           </a>
         </div>
       </li>
@@ -31,11 +40,11 @@ const Project = ({ project, demoIcon, code, codeURL, demoURL }) => (
           <a href={codeURL} className='project-demos'>
             <FontAwesomeIcon
               className='project-interact'
-              icon={code}
+              icon={codeIcon}
               style={{ color: 'grey' }}
               size='2x'
             />
-            See a demo
+            See the Code
           </a>
         </div>
       </li>
