@@ -2,7 +2,7 @@ import React from 'react';
 import './fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Project = ({ project, demoIcon, code }) => (
+const Project = ({ project, demoIcon, code, codeURL, demoURL }) => (
   <div className='project-card'>
     <div className='project-card-top'>big box of video</div>
     <h2>{project.name}</h2>
@@ -15,10 +15,7 @@ const Project = ({ project, demoIcon, code }) => (
     <ul className='project-discovery'>
       <li>
         <div>
-          <a
-            href='https://github.com/rschalo/Udacity-React-Nanodegree'
-            className='project-demos'
-          >
+          <a href={demoURL} className='project-demos'>
             <FontAwesomeIcon
               className='project-interact'
               icon={demoIcon}
@@ -31,10 +28,7 @@ const Project = ({ project, demoIcon, code }) => (
       </li>
       <li>
         <div>
-          <a
-            href='https://master.d2tkw00rmowzbl.amplifyapp.com/'
-            className='project-demos'
-          >
+          <a href={codeURL} className='project-demos'>
             <FontAwesomeIcon
               className='project-interact'
               icon={code}

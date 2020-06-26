@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
-import {
-  faPlay,
-  faCode
-} from '@fortawesome/free-solid-svg-icons';
-
+import { faPlay, faCode } from '@fortawesome/free-solid-svg-icons';
 
 class ProjectList extends Component {
   constructor(props) {
@@ -25,7 +21,9 @@ class ProjectList extends Component {
             'MongoDB',
           ],
           demoIcon: faPlay,
-          code: faCode
+          code: faCode,
+          codeURL: 'https://github.com/rschalo/yelpCampRSDemo',
+          demoURL: 'https://lit-sierra-70695.herokuapp.com/',
         },
         {
           id: 1,
@@ -34,7 +32,9 @@ class ProjectList extends Component {
             'This project is a Single Page Application that allows user to search for and update reading status of books.',
           technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'React'],
           demoIcon: faPlay,
-          code: faCode
+          code: faCode,
+          codeURL: 'https://github.com/rschalo/Udacity-React-Nanodegree',
+          demoURL: 'https://master.d2tkw00rmowzbl.amplifyapp.com/',
         },
       ],
     };
@@ -46,7 +46,14 @@ class ProjectList extends Component {
         <h1>PROJECTS</h1>
         <div className='project-container'>
           {projects.map((project) => (
-            <Project key={project.name} project={project} demoIcon={project.demoIcon} code={project.code}/>
+            <Project
+              key={project.name}
+              project={project}
+              demoIcon={project.demoIcon}
+              code={project.code}
+              codeURL={project.codeURL}
+              demoURL={project.demoURL}
+            />
           ))}
         </div>
       </section>
