@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import { faPlay, faCode } from '@fortawesome/free-solid-svg-icons';
+import yelpcampdemogif from './yelpcampdemo.gif';
+import myreadsdemogif from './myreadsdemo.gif';
 
 class ProjectList extends Component {
   constructor(props) {
@@ -24,7 +26,8 @@ class ProjectList extends Component {
           codeIcon: faCode,
           codeURL: 'https://github.com/rschalo/yelpCampRSDemo',
           demoURL: 'https://lit-sierra-70695.herokuapp.com/',
-          hostedAt: 'Heroku'
+          hostedAt: 'Heroku',
+          demoGif: yelpcampdemogif
         },
         {
           id: 1,
@@ -36,7 +39,8 @@ class ProjectList extends Component {
           codeIcon: faCode,
           codeURL: 'https://github.com/rschalo/Udacity-React-Nanodegree',
           demoURL: 'https://master.d2tkw00rmowzbl.amplifyapp.com/',
-          hostedAt: 'AWS'
+          hostedAt: 'AWS',
+          demoGif: myreadsdemogif
         },
       ],
     };
@@ -51,11 +55,7 @@ class ProjectList extends Component {
             <Project
               key={project.name}
               project={project}
-              demoIcon={project.demoIcon}
-              codeIcon={project.codeIcon}
-              codeURL={project.codeURL}
-              demoURL={project.demoURL}
-              hostedAt={project.hostedAt}
+              demoGif={project.demoGif}
             />
           ))}
         </div>

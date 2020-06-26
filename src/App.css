@@ -179,9 +179,9 @@ a {
 }
 
 .project-card-top {
-  background: blue;
   width: 100%;
   min-height: 300px;
+  max-height: 398px;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
 }
