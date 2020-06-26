@@ -169,9 +169,9 @@ a {
   border: 3px grey solid;
   border-radius: 20px;
   min-height: 868px;
-  min-width: 400px;
   margin-bottom: 25px;
   line-height: 1.2;
+  max-width: 375px;
 }
 
 .project-card h2 {
@@ -180,7 +180,7 @@ a {
 
 .project-card-top {
   width: 100%;
-  min-height: 300px;
+  min-height: 120px;
   max-height: 398px;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;

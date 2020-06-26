@@ -13,6 +13,7 @@ const Project = ({
           borderTopRightRadius: '17px',
           borderTopLeftRadius: '17px',
           borderBottom: '2px solid grey',
+          maxWidth: '375px'
         }}
         src={demoGif}
         alt='Demo of the MyReads web app'
