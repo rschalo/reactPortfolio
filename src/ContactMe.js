@@ -33,6 +33,7 @@ const ContactMe = () => (
               href='mailto:reed0schalo@gmail.com?subject=Resume%20Interest'
               target='_blank'
               rel='noopener noreferrer'
+              title='email me and let\"s chat'
             >
               <FontAwesomeIcon
                 className='social-icons'
@@ -47,6 +48,7 @@ const ContactMe = () => (
               href='https://docs.google.com/document/d/1pYPmxCyXu9eHma86Q4whvr9CXiowYKfV5VILJ0iA-hY/edit?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
+              target='review my resume'
             >
               <FontAwesomeIcon
                 className='social-icons'
@@ -75,6 +77,7 @@ const ContactMe = () => (
             href='https://github.com/rschalo'
             target='_blank'
             rel='noopener noreferrer'
+            title='I write code on GitHub'
           >
             <FontAwesomeIcon
               className='social-icons'
@@ -89,6 +92,7 @@ const ContactMe = () => (
             href='https://www.linkedin.com/in/reed-schalo/'
             target='_blank'
             rel='noopener noreferrer'
+            title='connect on LinkedIn'
           >
             <FontAwesomeIcon
               className='social-icons'
