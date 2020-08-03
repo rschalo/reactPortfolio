@@ -8,16 +8,14 @@ const Project = ({
 }) => (
   <div className='project-card'>
     <div className='project-card-top'>
-      <img
-        style={{
+      <video autoPlay loop muted playsInline style={{
           borderTopRightRadius: '17px',
           borderTopLeftRadius: '17px',
           borderBottom: '2px solid grey',
           maxWidth: '375px'
-        }}
-        src={demoGif}
-        alt='Demo of the MyReads web app'
-      />
+        }}>
+        <source src={project.demoMp4} type="video/mp4"/>
+      </video>
     </div>
     <h2>{project.name}</h2>
     <h4>Hosted on {project.hostedAt}</h4>

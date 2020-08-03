@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import { faPlay, faCode } from '@fortawesome/free-solid-svg-icons';
-import yelpcampdemogif from './yelpcampdemo.gif';
-import myreadsdemogif from './myreadsdemo.gif';
+import yelpcampvideo from './Videos/yelpCampVideo2.mp4';
+import myreadsvideo from './Videos/myReadsDemo.mp4';
 
 class ProjectList extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class ProjectList extends Component {
           codeURL: 'https://github.com/rschalo/yelpCampRSDemo',
           demoURL: 'https://lit-sierra-70695.herokuapp.com/',
           hostedAt: 'Heroku',
-          demoGif: yelpcampdemogif
+          demoMp4: yelpcampvideo
         },
         {
           id: 1,
@@ -40,7 +40,7 @@ class ProjectList extends Component {
           codeURL: 'https://github.com/rschalo/Udacity-React-Nanodegree',
           demoURL: 'https://master.d2tkw00rmowzbl.amplifyapp.com/',
           hostedAt: 'AWS',
-          demoGif: myreadsdemogif
+          demoMp4: myreadsvideo
         },
       ],
     };
