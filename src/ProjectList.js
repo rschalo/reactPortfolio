@@ -3,6 +3,7 @@ import Project from './Project';
 import { faPlay, faCode } from '@fortawesome/free-solid-svg-icons';
 import yelpcampvideo from './Videos/yelpCampVideo2.mp4';
 import myreadsvideo from './Videos/myReadsDemo.mp4';
+import stximg from './img/stx.png';
 
 class ProjectList extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class ProjectList extends Component {
           id: 0,
           name: 'YelpCamp',
           description:
-            "This project is a Full Stack Web App that allows users to create, edit, and update campgrounds in a database.",
+            'This project is a Full Stack Web App that allows users to create, edit, and update campgrounds in a database.',
           technologies: [
             'HTML',
             'CSS',
@@ -27,7 +28,7 @@ class ProjectList extends Component {
           codeURL: 'https://github.com/rschalo/yelpCampRSDemo',
           demoURL: 'https://lit-sierra-70695.herokuapp.com/',
           hostedAt: 'Heroku',
-          demoMp4: yelpcampvideo
+          demoMp4: yelpcampvideo,
         },
         {
           id: 1,
@@ -40,7 +41,27 @@ class ProjectList extends Component {
           codeURL: 'https://github.com/rschalo/Udacity-React-Nanodegree',
           demoURL: 'https://master.d2tkw00rmowzbl.amplifyapp.com/',
           hostedAt: 'AWS',
-          demoMp4: myreadsvideo
+          demoMp4: myreadsvideo,
+        },
+        {
+          id: 1,
+          name: 'STX',
+          description:
+            'React app for viewing stock key indicators and news based on user input.',
+          technologies: [
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Node.js',
+            'React',
+            'React Hooks',
+          ],
+          demoIcon: faPlay,
+          codeIcon: faCode,
+          codeURL: 'https://github.com/rschalo/stx',
+          demoURL: 'https://master.dbd9rkgsgxq5y.amplifyapp.com/',
+          hostedAt: 'AWS',
+          demoMp4: stximg,
         },
       ],
     };
