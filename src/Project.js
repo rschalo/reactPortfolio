@@ -20,7 +20,15 @@ const Project = ({ project }) => (
           <source src={project.demoMp4} type='video/mp4' />
         </video>
       ) : (
-        <img alt='stocks news project' src={project.demoimg}></img>
+        <img
+          alt='stocks news project'
+          src={project.demoimg}
+          style={{
+            borderTopRightRadius: '17px',
+            borderTopLeftRadius: '17px',
+            borderBottom: '2px solid grey',
+            maxWidth: '375px',
+          }}></img>
       )}
     </div>
     <h2>{project.name}</h2>
