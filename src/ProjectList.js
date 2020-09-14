@@ -3,7 +3,7 @@ import Project from './Project';
 import { faPlay, faCode } from '@fortawesome/free-solid-svg-icons';
 import yelpcampvideo from './Videos/yelpCampVideo2.mp4';
 import myreadsvideo from './Videos/myReadsDemo.mp4';
-import stximg from './img/stx.png';
+import stximg from './img/stx.PNG';
 
 class ProjectList extends Component {
   constructor(props) {
