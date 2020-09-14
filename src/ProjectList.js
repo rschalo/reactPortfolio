@@ -61,7 +61,7 @@ class ProjectList extends Component {
           codeURL: 'https://github.com/rschalo/stx',
           demoURL: 'https://master.dbd9rkgsgxq5y.amplifyapp.com/',
           hostedAt: 'AWS',
-          demoMp4: stximg,
+          demoimg: stximg,
         },
       ],
     };
@@ -77,6 +77,7 @@ class ProjectList extends Component {
               key={project.name}
               project={project}
               demoGif={project.demoGif}
+              demoimg={project.demoimg}
             />
           ))}
         </div>

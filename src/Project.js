@@ -2,20 +2,26 @@ import React from 'react';
 import './fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Project = ({
-  project,
-  demoGif
-}) => (
+const Project = ({ project }) => (
   <div className='project-card'>
     <div className='project-card-top'>
-      <video autoPlay loop muted playsInline style={{
-          borderTopRightRadius: '17px',
-          borderTopLeftRadius: '17px',
-          borderBottom: '2px solid grey',
-          maxWidth: '375px'
-        }}>
-        <source src={project.demoMp4} type="video/mp4"/>
-      </video>
+      {project.demoMp4 ? (
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            borderTopRightRadius: '17px',
+            borderTopLeftRadius: '17px',
+            borderBottom: '2px solid grey',
+            maxWidth: '375px',
+          }}>
+          <source src={project.demoMp4} type='video/mp4' />
+        </video>
+      ) : (
+        <img alt='stocks news project' src={project.demoimg}></img>
+      )}
     </div>
     <h2>{project.name}</h2>
     <h4>Hosted on {project.hostedAt}</h4>
