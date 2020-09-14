@@ -28,6 +28,7 @@ const Project = ({ project }) => (
             borderTopLeftRadius: '17px',
             borderBottom: '2px solid grey',
             maxWidth: '375px',
+            height: '310.938px',
           }}></img>
       )}
     </div>
