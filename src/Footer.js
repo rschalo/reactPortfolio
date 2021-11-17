@@ -10,7 +10,7 @@ const Footer = () => (
               <input type='submit' value='BACK TO TOP' />
             </form>
           </div>
-          <div>Copyright © rschalo.github.io 2020</div>
+          <div>Copyright © rschalo.github.io 2021</div>
         </div>
       </div>
     </div>
