@@ -45,7 +45,7 @@ const ContactMe = () => (
           </li>
           <li>
             <a
-              href='https://drive.google.com/file/d/1X-en20Zm84OTM1tUFrb3utYyrn9wG6B6/view?usp=sharing'
+              href='https://docs.google.com/document/d/1u0p9gO1cKMedUrKiLCLFOLSljWMBewSgzmcvvHSf0h8/edit?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
               title='review my resume'
